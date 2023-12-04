@@ -12,10 +12,10 @@ function App() {
         <HeroForm />
       </div>
       <div className="w-full border-t h-full flex flex-row justify-end items-center">
-        <button className="w-32 h-9 rounded-md bg-gray-300 text-gray-600 font-semibold mr-4 text-sm">
+        <button className="w-32 h-9 rounded-md bg-gray-300 text-gray-600 font-semibold mr-4 text-sm hover:bg-gray-100 hover:border transition-colors">
           Cancel
         </button>
-        <button className="w-32 h-9 rounded-md bg-green-700 text-white font-semibold mr-4 text-sm">
+        <button className="w-32 h-9 rounded-md bg-green-700 text-white font-semibold mr-4 text-sm hover:bg-green-600 transition-colors">
           Save Changes
         </button>
       </div>

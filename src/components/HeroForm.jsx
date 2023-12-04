@@ -6,7 +6,7 @@ export const HeroForm = () => {
       {/* Primera parte */}
       <h3 className="text-sm font-semibold">Upload hero image</h3>
       <div className="h-[140px] bg-slate-100 rounded-md mt-2 flex flex-col items-center justify-center border">
-        <div className="w-12 h-12 rounded-full bg-green-700 items-center flex justify-center mb-2">
+        <div className="w-12 h-12 rounded-full bg-green-700 items-center flex justify-center mb-2 cursor-pointer hover:bg-green-600">
           <IoCloudUploadOutline className="text-white cursor-pointer" />
         </div>
         <span className="text-xs">
